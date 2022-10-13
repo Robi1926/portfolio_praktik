@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    font-family: "Zen Dots", cursive;
+  }
+  h2,
+  p,
+  h3 {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+#baggrund {
+  background-image: url(img/baggrund.png);
+}
+.stroke {
+  -webkit-text-stroke: 1px #0b1633;
+  background-color: transparent;
+}
